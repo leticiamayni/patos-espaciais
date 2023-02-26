@@ -1,13 +1,13 @@
 window.addEventListener('load', initScene);
 
-const meteors = [
+const patos = [
     {x: 0, y: 0, z: -30},
     {x: 0, y: 0, z: 30},
     {x: 30, y: 0, z: 0},
     {x: -30, y: 0, z: 0}
    ];
 
-let meteor, quack;
+let quack;
 let score = 0;
 
 function initScene() {
@@ -16,7 +16,7 @@ function initScene() {
 
     orbits.forEach(orbit => {
 
-    meteors.forEach(pos => {
+    patos.forEach(pos => {
 
         pato = document.createElement('a-entity');
         pato.setAttribute('gltf-model','Assets/3D/pato-conver.gltf');
