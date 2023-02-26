@@ -21,4 +21,3 @@ loader.load('Assets/3D/pato-conver.gltf', (gltf) => {
     }
   });
 });
-
